@@ -21,6 +21,16 @@ in `recipes/agents/`. Don't edit it here: a change belongs there.
 | One repository | `npx hushrun init` writes the skill into it, for every clone |
 | Your home, from hushrun | `hushrun skill update --global` |
 
+## Support and privacy
+
+- Support: [https://github.com/hushrun/hushrun/issues](https://github.com/hushrun/hushrun/issues), or support@hushrun.com
+- Privacy policy: [https://hushrun.com/privacy](https://hushrun.com/privacy)
+- Terms: [https://hushrun.com/terms](https://hushrun.com/terms)
+
+The skill sends nothing itself. The hushrun CLI it runs hashes files on the machine and never sends
+them; once a person signs in, it records check results with hushrun's service, and about once a day
+it asks GitHub whether a newer release is out (`HUSHRUN_NO_UPDATE_CHECK=1` turns that off).
+
 ## Updates
 
 Each hushrun release updates this repository, tagged as the release is, and each tool updates
@@ -29,4 +39,4 @@ its copy with its own command: `npx skills update`, `claude plugin update hushru
 hushrun` or `gh skill update`. A copy that is out of date still works: hushrun says so, in
 `hushrun guide` and `hushrun ready`.
 
-This is hushrun 0.11.0, skill revision 1. MIT licensed: see LICENSE.
+This is hushrun 0.11.1, skill revision 1. MIT licensed: see LICENSE.
