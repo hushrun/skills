@@ -1,0 +1,15 @@
+{
+  "name": "hushrun",
+  "description": "hushrun's skill for coding agents, from hushrun's own releases.",
+  "owner": {
+    "name": "hushrun",
+    "email": "support@hushrun.com"
+  },
+  "plugins": [
+    {
+      "name": "hushrun",
+      "source": "./",
+      "description": "Tells coding agents what to run before they push in a repository that uses hushrun, which skips CI checks this exact code already passed, and how to set hushrun up."
+    }
+  ]
+}

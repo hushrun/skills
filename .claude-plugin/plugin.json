@@ -1,0 +1,28 @@
+{
+  "name": "hushrun",
+  "version": "0.11.0",
+  "description": "Tells coding agents what to run before they push in a repository that uses hushrun, which skips CI checks this exact code already passed, and how to set hushrun up.",
+  "author": {
+    "name": "hushrun",
+    "email": "support@hushrun.com",
+    "url": "https://hushrun.com"
+  },
+  "homepage": "https://hushrun.com/docs/for-agents",
+  "repository": "https://github.com/hushrun/skills",
+  "license": "MIT",
+  "keywords": [
+    "ci",
+    "testing",
+    "pre-push",
+    "github-actions",
+    "gitlab-ci",
+    "coding-agents",
+    "skills"
+  ],
+  "displayName": "hushrun",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://hushrun.com/docs/for-agents",
+  "supportUrl": "https://github.com/hushrun/hushrun/issues",
+  "privacyPolicyUrl": "https://hushrun.com/privacy",
+  "termsOfServiceUrl": "https://hushrun.com/terms"
+}
