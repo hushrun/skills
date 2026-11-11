@@ -39,4 +39,4 @@ its copy with its own command: `npx skills update`, `claude plugin update hushru
 hushrun` or `gh skill update`. A copy that is out of date still works: hushrun says so, in
 `hushrun guide` and `hushrun ready`.
 
-This is hushrun 0.11.1, skill revision 1. MIT licensed: see LICENSE.
+This is hushrun 0.12.0, skill revision 2. MIT licensed: see LICENSE.
