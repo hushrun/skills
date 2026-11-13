@@ -1,6 +1,6 @@
 {
   "name": "hushrun",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "Tells coding agents what to run before they push in a repository that uses hushrun, which skips CI checks this exact code already passed, and how to set hushrun up.",
   "author": {
     "name": "hushrun",
